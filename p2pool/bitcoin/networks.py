@@ -20,7 +20,7 @@ def check_genesis_block(bitcoind, genesis_block_hash):
 nets = dict(
 
 juggalocoin=math.Object(
-        P2P_PREFIX='fdc0b8de'.decode('hex'),
+        P2P_PREFIX='fec3b9de'.decode('hex'),
         P2P_PORT=39348,
         ADDRESS_VERSION=43,
         RPC_PORT=39347,
