@@ -94,7 +94,7 @@ int64_t static GetBlockBaseValue(int nBits, int nHeight)
 #include <boost/python/def.hpp>
 using namespace boost::python;
  
-BOOST_PYTHON_MODULE(darkcoin_subsidy)
+BOOST_PYTHON_MODULE(juggalocoin_subsidy)
 {
     def("GetBlockBaseValue", GetBlockBaseValue);
 }
